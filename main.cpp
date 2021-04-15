@@ -121,6 +121,12 @@ void n9(){
   reset();
 }
 
+void dps(){
+  digitalWrite(dp,HIGH);
+  delay(times);
+  reset();
+}
+
 void loop(){
   n0();
   n1();
@@ -132,4 +138,5 @@ void loop(){
   n7();
   n8();
   n9();
+  dps();
 }
